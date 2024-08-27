@@ -3,138 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Management</title>
+    <title>Rooms for Stay</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="nav">
-            <div class="logo"><img class="logo" src="logo.png" ></div>
-            <div class="left-nav">Vecteezy<span>.</span></div>
-            <div class="center-nav">
-                <a href="#one">EXPLORE</a>
-                <a href="#two">ROOMS</a>
-                <a href="#three">ABOUT</a>
-                <a href="#news">ACTIVITIES</a>
+    <header>
+        <h1>Welcome to Our Rooms</h1>
+        <nav>
+            <ul>
+                <li><a href="#deluxe">Deluxe Suite</a></li>
+                <li><a href="#standard">Standard Room</a></li>
+                <li><a href="#economy">Economy Room</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="deluxe" class="room">
+            <img src="images1/img1.jpg" alt="Deluxe Suite">
+            <div class="room-details">
+                <h2>Deluxe Suite</h2>
+                <p>it will be bigger, more luxurious, and probably have a great view. You're most likely to find deluxe describing a spa, hotel, car, or house.</p>
+                <p class="price">$150 per night</p>
+                <button class="book-btn">Book Now</button>
             </div>
-            <div class="right-nav">
-                <div class="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_tU3fgLeO-Ltp5ENj2R1CxCQVsLQy6XhMMWsRtY8qM1KIkA/viewform?embedded=true" width="640" height="1483" frameborder="0" marginheight="0" marginwidth="0" class="btn" target="_blank">BOOK NOW<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f5623a"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a></div>
+        </section>
+
+        <section id="standard" class="room">
+            <img src="images1/img2.jpg" alt="Standard Room">
+            <div class="room-details">
+                <h2>Standard Room</h2>
+                <p>A standard room is one of the cheapest hotel rooms, and usually includes a double or queen bed. It's usually a rectangular space with a private bathroom, a desk, an armchair or sofa and perhaps a cupboard and dressing table.</p>
+                <p class="price">$100 per night</p>
+                <button class="book-btn">Book Now</button>
             </div>
-            <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun icon" style="display:none; cursor: pointer;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon icon" style="cursor: pointer;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </section>
+
+        <section id="economy" class="room">
+            <img src="images1/img3.jpg" alt="Economy Room">
+            <div class="room-details">
+                <h2>Economy Room</h2>
+                <p>Economy rooms are perfect for guests who want to live comfortably , but for less money . The comfort is the same as the standard rooms but the rooms are a bit smaller . The rooms are equipped with one or two single beds.
+                </p>
+                <p class="price">$75 per night</p>
+                <button class="book-btn">Book Now</button>
             </div>
-        </div>
-        <div class="container" id="one">
-            <div class="menu">
-                <h1>STAY WITH COMFORT</h1>
-                <div class="button2"><a href="rooms/index.html" target="_blank" class="btn2">FIND ROOMS FOR STAY</a></div>
-           </div> 
-        </div>
-        <div class="info">
-            <p>DESTINATION.<br>LUXUARY.<br>RESPITE.</p>
-        </div>
-        <div class="plan" >
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" class="heart" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
-            <p>IT'S YOUR OWN,PLAN<br>BIG SHOW<br></p>
-            <p class="love">We love to orchestrating<br>your weeding events.</p>
-        </div>
-        <div class="gym">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" class="spa" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-80q-73-9-145-39.5T206.5-207Q150-264 115-351T80-560v-40h40q51 0 105 13t101 39q12-86 54.5-176.5T480-880q57 65 99.5 155.5T634-548q47-26 101-39t105-13h40v40q0 122-35 209t-91.5 144q-56.5 57-128 87.5T480-80Zm-2-82q-11-166-98.5-251T162-518q11 171 101.5 255T478-162Zm2-254q15-22 36.5-45.5T558-502q-2-57-22.5-119T480-742q-35 59-55.5 121T402-502q20 17 42 40.5t36 45.5Zm78 236q37-12 77-35t74.5-62.5q34.5-39.5 59-98.5T798-518q-94 14-165 62.5T524-332q12 32 20.5 70t13.5 82Zm-78-236Zm78 236Zm-80 18Zm46-170ZM480-80Z"/></svg>
-            <p>TRY OUR EXHILARATING<br>SPA&GYM<br></p>
-            <p class="world">Experience world greatest<br>relaxation on earth.</p>
-        </div>
-        <div class="guide">
-            <p class="hlo">2K23 FALL <br>TRAVEL GUIDE <br></p>
-            <p class="time">The autumn foliagr in full <br>display,it's the perfect time <br>to hit the road</p>
-            <div class="button3"><a href="" class="btn3">VIEW ONLINE GUIDE<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a></div>
-        </div>
-        <div class="menu1">
-            <p class="iq">We let ourselves be inspired by the<br>history as well as by contemporary<br> <span5>artist of the city.</span5></p>
-            <p class="eq">FREE WIFI<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></p>
-            <p class="hq">BREAKFAST<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></p>
-            <div class="beach">
-                <img class="beach" src="./images/miami-beach-lifeguard-hut.webp">
-            </div>
-            <div class="menu3">
-                <p class="offer">SERVICE <span6>OFFERS</span6> <br>WE PROVIDE</p>
-                <P class="blossom">Blossom provide asthetic beach <br>house to our international Tourist <br>and event organizer.</P>
-                <div class="button4"><a href="" class="btn4">SEE ALL SERVICE<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a></div>
-            </div>
-        </div>
-        <div class="menu4">
-            <p class="book"><img src="./images/67.jpg"></p>
-            <div class="golf">
-                <svg xmlns="http://www.w3.org/2000/svg" height="40px" class="major" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M787.33-122q-21.94 0-37.3-15.36-15.36-15.36-15.36-37.31 0-21.94 15.36-37.3 15.36-15.36 37.3-15.36 21.95 0 37.31 15.36Q840-196.61 840-174.67q0 21.95-15.36 37.31Q809.28-122 787.33-122Zm-390 42q-98 0-167.66-20.5Q160-121 160-152.43q0-21.9 37.67-40.24 37.66-18.33 91.66-28v74H364V-880l301.33 146.67-234.66 122.66v384.36Q519.33-221 577-200.5q57.67 20.5 57.67 47.83 0 31.67-69.67 52.17T397.33-80Z"/></svg>
-                <p class="gole">PARTICIPATE ON MAJOR <br>GOLF EVENT <br></p>
-                <p class="feature">In 2022 we feature for <br>majors golf event.</p>
-                <div class="button5"><a href="" class="btn5">GO EVENTS<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a></div>
-            </div>
-        </div>
-        <div class="hill">
-            <p class="cottage">BLOSSOM COTTAGE IN <br>HILL COUNTRY <br></p>
-            <p class="along">Our cottages are suitated along the senic hill <br>trail in the peacefull country setting of grand <br>river on beautiful hill island</p>
-        </div>
-        <div class="rooms" id="two">
-            <p class="long"> <span9>ROOMS</span9></p>
-            <p class="stay">STAY LONG, SAVE MORE <br>ON VILLA OR RESORTS <br></p>
-            <p class="denied">The hotel is denied from the french hotel, <br>which refered a french version of building <br>seeing frequent visitiors.</p>
-            <div class="button6"><a href="" class="btn6">SEE ALL SERVICES<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a></div>
-            <div class="interior"><img class="interior" src="./images/interior.jpg"></div>
-          </div>
-          <div class="exp" id="three">
-            <p class="xp">EXPERIENCE YOU GET<br> WITH <span10>BLOSSOM</span10> </p>
-			<div class="sele">
-			   <p class="beho">BEACH HOUSE   <svg xmlns="http://www.w3.org/2000/svg" height="40px" class="dow" viewBox="0 -960 960 960" width="60px" fill="#000000"><path d="M480-344 240-584l47.33-47.33L480-438.67l192.67-192.66L720-584 480-344Z"/></svg></p>
-			   <p class="mot">MOUNTAIN CAMPING<svg xmlns="http://www.w3.org/2000/svg" height="40px"  viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M480-344 240-584l47.33-47.33L480-438.67l192.67-192.66L720-584 480-344Z"/></svg></p>
-			   <p class="spec">SPECIALIZED EVENTS<svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M480-344 240-584l47.33-47.33L480-438.67l192.67-192.66L720-584 480-344Z"/></svg></p>
-			</div>
-        </div>
-		<div class="pall">
-		  <img class="poll" src="./images/polg.png">
-		</div>
-		<div class="succ">
-		   <p class="esio">BLOSSOM<br>SUCCESSION</p>
-		<p class="turis">Turistic ensures a smooth transition <br>on travelling industries. We the successor <br>organisation also saved tourists.
-		</div>
-        <div class="news" id="news">
-            <p class="new"><span9>NEWS</span9></p>
-            <div class="button7"><a href="" class="btn7">SEE ALL SERVICES<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a></div>
-            <p class="blog">THE BLOG</p>
-            <img src="./images/celeb.jpg" alt="" class="celeb">
-            <img src="./images/view.jpg" alt="" class="vie">
-            <img src="./images/laKE.jpg" alt="" class="lake">
-            <p class="aug">29-08-2022</p>
-            <p class="sept">16-08-2022</p>
-            <p class="oct">19-08-2022</p>
-            <p class="ways">5WAYS TO CELEBRATE <br>YOUR BIG DAY</p>
-            <p class="turt">TURISTIC PROVIDE STAY <br> LONG,SAVE MONEY</p>
-            <p class="lak">ENJOY SCENIC BEAUTY BY <br>KAYKING ON LAKE</p>
-        </div> 
-        <div class="bookies">
-            <img src="./images/bookie.png" alt="" class="bookie">
-            <p class="call">CALL FOR BOOKING</p>
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" class="calll" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>
-        </div>
-        <div class="no">
-            <p class="noo">44-3929-5002</p>
-            <button class="button8"><a href="" class="btn8">BOOK NOW <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a></button>
-        </div>
-        <div class="conn">
-            <a href="">OUR STORY</a>
-            <a href="">PACKAGES</a>
-            <a href="">SERVICE</a>
-        </div>
-        <div class="gallery">
-            <a href="">FEATURE</a>
-            <a href="">GALLREY</a>
-            <a href="">CONTACT</a>
-        </div>
-        <div class="vect">
-            <img src="logo.png" alt="" class="vect">
-        </div>
-        <p class="rights">@2022 VERCEL STUDIO|ALL RIGHTS RESERVED</p>
-    </div>
-	<script src="script.js"></script>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rooms for Stay. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
